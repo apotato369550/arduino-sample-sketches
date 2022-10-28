@@ -2,7 +2,7 @@
 
 #define dhtType DHT11
 
-int dht_pin = 13;
+int dht_pin = 8;
 
 DHT dht(dht_pin, dhtType);
 
